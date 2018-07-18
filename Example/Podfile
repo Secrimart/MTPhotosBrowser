@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MTPhotosBrowser_Example' do
+  pod 'MTPhotosBrowser', :path => '../'
+
+  target 'MTPhotosBrowser_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
