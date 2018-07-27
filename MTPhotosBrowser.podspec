@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rstx_reg@aliyun.com/MTPhotosBrowser'
+  s.homepage         = 'https://github.com/Secrimart/MTPhotosBrowser'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rstx_reg@aliyun.com' => 'secrimart@aliyun.com' }
-  s.source           = { :git => 'https://github.com/rstx_reg@aliyun.com/MTPhotosBrowser.git', :tag => s.version.to_s }
+  s.author           = { 'Secrimart' => 'secrimart@aliyun.com' }
+  s.source           = { :git => 'https://github.com/Secrimart/MTPhotosBrowser.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -38,5 +38,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'MBProgressHUD', '~> 1.1'
+  s.dependency 'DACircularProgress', '~> 2.3'
+  s.dependency 'SDWebImage', '~> 4.0'
+  s.dependency 'JRSwizzle', '~> 1.0'
 end
